@@ -3,11 +3,9 @@
 #include<fstream>
 using namespace std;
 main(){
-	ifstream f("hashmat.txt");
-	
+	ifstream f("input.txt");	
 	int hash, opp;
 	while(f>>hash>>opp){
 		cout<<abs(hash-opp)<<endl;
 	}
-
 }
