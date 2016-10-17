@@ -5,6 +5,7 @@ main(){
 	ifstream m("input.txt");
 	int x;
 	m>>x;
+	cout<<x<<"\t";
 	while(x>1){
 			if((x%2)==1){
 				x=(x*3)+1;
